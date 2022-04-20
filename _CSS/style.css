@@ -12,6 +12,9 @@ p {
     /* bold,bolder,normal,lighter,100-900 */
     font-style: italic;
     /* italic, normal */
+
+    font-family: 'segoe ui','微軟正黑體';
+    /* arial, verdana, tahoma, helvetica, georgia, sagoe ui, gill sans mt */
 }
 a {
     text-decoration: none;
