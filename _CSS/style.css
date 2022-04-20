@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Noto+Sans+TC:wght@100;400;900&display=swap');
+
 body {
     font-family: 'lato','noto sans tc';
+    background-color: #ff6363;
+    background-image: url('https://picsum.photos/id/22/600/400');
+    background-repeat: no-repeat;
+    /* repeat, no-repeat, repeat-x, repeat-y */
 
+    background-position: center;
+    /* top, bottom, left, right, center  以body為基準的對齊*/
 }
 p {
     color: #4ca8ff;
