@@ -1,10 +1,12 @@
 p {
+    color: #222222;
     text-decoration: none;
     text-align: justify;
     /* left, center, right, justify */
 
-    line-height: 200px;
+    line-height: 1.7rem;
     /* 1rem = 1 * 16px */
+    font-size: 16px;
 }
 a {
     text-decoration: none;
