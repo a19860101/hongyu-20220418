@@ -1,12 +1,11 @@
-h1 {
-    color: red;
+p {
+    text-decoration: none;
+    text-align: justify;
+    /* left, center, right, justify */
+
+    line-height: 200px;
+    /* 1rem = 1 * 16px */
 }
-h1 {
-    color: pink;
-}
-.abc {
-    color: #fd9916;;
-}
-#xyz {
-    color: #21ffb5;
+a {
+    text-decoration: none;
 }
