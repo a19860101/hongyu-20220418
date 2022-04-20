@@ -2,16 +2,19 @@
 
 body {
     font-family: 'lato','noto sans tc';
-    background-color: #ff6363;
-    background-image: url('https://picsum.photos/id/22/600/400');
+    background-color: #00498d;
+    background-image: url('https://picsum.photos/id/22/1600/1000');
     background-repeat: no-repeat;
     /* repeat, no-repeat, repeat-x, repeat-y */
 
     background-position: center;
     /* top, bottom, left, right, center  以body為基準的對齊*/
+    background-attachment: fixed;
+
+    background-size: cover;
 }
 p {
-    color: #4ca8ff;
+    color: #b6dcff;
     text-decoration: none;
     text-align: justify;
     /* left, center, right, justify */
