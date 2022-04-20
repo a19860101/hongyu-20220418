@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Noto+Sans+TC:wght@100;400;900&display=swap');
+body {
+    font-family: 'lato','noto sans tc';
+
+}
 p {
-    color: #222222;
+    color: #4ca8ff;
     text-decoration: none;
     text-align: justify;
     /* left, center, right, justify */
@@ -13,7 +18,7 @@ p {
     /* font-style: italic; */
     /* italic, normal */
 
-    font-family: 'lato','noto sans tc';
+    /* font-family: 'lato','noto sans tc'; */
     /* arial, verdana, tahoma, helvetica, georgia, sagoe ui, gill sans mt */
 }
 a {
