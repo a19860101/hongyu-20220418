@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             /* height: 800px; */
         }
         .box {
             width: 200px;
-
-            border:10px solid rgb(245, 25, 25);
+            border:1px solid rgb(245, 25, 25);
             /* border-width:; */
             /* border-style:; */
             /* solid, double, dotted, dashed 
@@ -45,7 +47,7 @@
 
             /* overflow: auto; */
 
-            padding:50px;
+            padding:10px;
             /* padding-left: ;
             padding-right: ;
             padding-top: ;
@@ -63,10 +65,19 @@
             /* margin-right: auto; */
             margin: auto;
         }
-
+        /* 
+            行內元素沒有width, height
+            margin,padding,border只有左右有效
+        */
+        span {
+            display: block;
+        }
     </style>
 </head>
 <body>
+    <span class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, atque in officia eveniet dolorem cupiditate, perferendis praesentium, cumque temporibus dignissimos nemo odit quod doloremque ducimus ipsum totam eos culpa minus.
+    </span>
     <div class="box">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat corporis praesentium rerum laborum incidunt hic eos quibusdam eius quis placeat magni, inventore, labore molestiae doloribus magnam nobis laboriosam at enim.
     </div>
