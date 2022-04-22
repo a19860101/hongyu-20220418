@@ -6,6 +6,7 @@
 }
 html {
     font-family: 'Montserrat','微軟正黑體';
+    scroll-behavior: smooth;
 }
 section {
     width: 100%;
