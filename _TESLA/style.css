@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+html {
+    font-family: 'Montserrat','微軟正黑體';
+}
 section {
     width: 100%;
     height: 100vh;
@@ -22,6 +25,22 @@ nav {
 
     background-color: #ccc;
 }
+/* 後代選取器 */
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 #model-s {
     background-image: url('images/model-s.jpg');
 }
