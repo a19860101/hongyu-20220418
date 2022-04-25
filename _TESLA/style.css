@@ -106,11 +106,17 @@ h2 {
 }
 .btn-dark:hover {
     color: #222222;
-    background-color: #f0f0f0;
+    background-color: #2fc1ff;
 }
 .btn-light {
     color: #222222;
     background-color: #f0f0f0;
+    transition: 300ms;
+
+}
+.btn-light:hover {
+    color: #f0f0f0;
+    background-color: #b32121;
 }
 .btn-red {
     background-color: #d73b3b;
