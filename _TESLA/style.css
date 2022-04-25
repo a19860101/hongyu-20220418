@@ -48,6 +48,23 @@ nav a {
 #model-s {
     background-image: url('images/model-s.jpg');
 }
+
+#model-x {
+    background-image: url('images/model-x.jpg');
+}
+#model-y {
+    background-image: url('images/model-y.jpg');
+}
+#model-3 {
+    background-image: url('images/model-3.jpg');
+}
+#power {
+    background-image: url('images/power.jpg');
+}
+#accessories {
+    background-image: url('images/accessories.jpg');
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -65,18 +82,12 @@ nav a {
 .bottom {
     margin-bottom: 150px;
 }
-#model-x {
-    background-image: url('images/model-x.jpg');
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
-#model-y {
-    background-image: url('images/model-y.jpg');
-}
-#model-3 {
-    background-image: url('images/model-3.jpg');
-}
-#power {
-    background-image: url('images/power.jpg');
-}
-#accessories {
-    background-image: url('images/accessories.jpg');
+.top a {
+    font-size: .9rem;
+    color: #000;
 }
