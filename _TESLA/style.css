@@ -91,15 +91,24 @@ h2 {
     font-size: .9rem;
     color: #000;
 }
-.btn {
+.btn-dark {
     display: inline-block;
     color: #f0f0f0;
     background-color: #222222;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 100px;
     font-size: .9rem;
     border-radius: 50px;
+    margin: 0 15px;
+}
+.btn-light {
+    display: inline-block;
+    color: #222222;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px 100px;
+    font-size: .9rem;
+    border-radius: 50px;
+    margin: 0 15px;
+
 }
