@@ -151,3 +151,13 @@ footer a {
     text-decoration: none;
     margin: 0 6px;
 }
+.gotop {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #109bff;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+}
