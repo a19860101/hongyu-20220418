@@ -48,6 +48,23 @@ nav a {
 #model-s {
     background-image: url('images/model-s.jpg');
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+/* 
+    當flex的方向為column時，jutify-content會變垂直對其，align-items會變水平對其
+*/
+.top {
+    margin-top: 150px;
+}
+.bottom {
+    margin-bottom: 150px;
+}
 #model-x {
     background-image: url('images/model-x.jpg');
 }
