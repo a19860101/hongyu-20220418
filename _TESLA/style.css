@@ -118,3 +118,18 @@ h2 {
 .reserve a {
     color: #000;
 }
+footer {
+    color: #1c1c1c;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px 0;
+}
+footer span {
+    margin: 0 6px;
+}
+footer a {
+    color: #1c1c1c;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin: 0 6px;
+}
