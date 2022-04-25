@@ -160,4 +160,9 @@ footer a {
     text-decoration: none;
     text-align: center;
     line-height: 60px;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
 }
