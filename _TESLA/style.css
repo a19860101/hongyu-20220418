@@ -111,3 +111,10 @@ h2 {
     background-color: #d73b3b;
     color: #fff;
 }
+.reserve {
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+.reserve a {
+    color: #000;
+}
