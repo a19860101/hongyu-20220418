@@ -102,6 +102,11 @@ h2 {
 .btn-dark {
     color: #f0f0f0;
     background-color: #222222;
+    transition: 300ms;
+}
+.btn-dark:hover {
+    color: #222222;
+    background-color: #f0f0f0;
 }
 .btn-light {
     color: #222222;
