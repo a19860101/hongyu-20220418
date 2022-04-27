@@ -17,12 +17,14 @@
         .accordion-button:not(.collapsed) {
             color: #e1ff21;
             background-color: #640058;
-            box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
         }
+
         .accordion-button:not(.collapsed)::after {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e1ff21'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
             transform: rotate(-180deg);
         }
+
         .accordion-button {
             position: relative;
             display: flex;
@@ -36,7 +38,7 @@
             border: 0;
             border-radius: 0;
             overflow-anchor: none;
-            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
         }
     </style>
 </head>
@@ -158,12 +160,15 @@
                 </div>
                 <div class="col-12">
                     <a href="#collapse-1" class="btn btn-danger" data-bs-toggle="collapse">collpase 1(href)</a>
-                    <a href="#" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapse-1">collpase 2(data-bs-target)</a>
+                    <a href="#" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapse-1">collpase
+                        2(data-bs-target)</a>
                     <div class="collapse" id="collapse-1">
                         <div class="border border-dark rounded-3 p-4 mt-3">
                             <h2>collapse</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde, omnis commodi quidem provident dolor necessitatibus sed illo, reiciendis vero veritatis voluptas non molestiae ullam sit laudantium voluptatem natus aliquid!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde, omnis commodi
+                                quidem provident dolor necessitatibus sed illo, reiciendis vero veritatis voluptas non
+                                molestiae ullam sit laudantium voluptatem natus aliquid!
                             </p>
                         </div>
                     </div>
@@ -232,6 +237,63 @@
                     <h3>This is Badge <span class="badge rounded-pill bg-success">New</span></h3>
                     <h3>This is Badge <span class="badge rounded-pill bg-dark">New</span></h3>
                     <h3>This is Badge <span class="badge rounded-pill bg-light text-dark">New</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding:150px 0" id="tab">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="border-bottom pb-2 mb-5 text-center">Navs & Tabs</h2>
+                </div>
+                <div class="col-4">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
