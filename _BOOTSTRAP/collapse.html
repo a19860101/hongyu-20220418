@@ -157,8 +157,16 @@
                     <h2 class="border-bottom pb-2 mb-5 text-center">collapse</h2>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="btn btn-danger">collpase 1(href)</a>
-                    <a href="#" class="btn btn-warning">collpase 2(data-bs-target)</a>
+                    <a href="#collapse-1" class="btn btn-danger" data-bs-toggle="collapse">collpase 1(href)</a>
+                    <a href="#" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapse-1">collpase 2(data-bs-target)</a>
+                    <div class="collapse" id="collapse-1">
+                        <div class="border border-dark rounded-3 p-4 mt-3">
+                            <h2>collapse</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde, omnis commodi quidem provident dolor necessitatibus sed illo, reiciendis vero veritatis voluptas non molestiae ullam sit laudantium voluptatem natus aliquid!
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
